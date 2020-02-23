@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Iron-code/node-todo-api/issues"
   },
-  "homepage": "https://github.com/Iron-code/node-todo-api#readme"
+  "homepage": "https://github.com/Iron-code/node-todo-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
