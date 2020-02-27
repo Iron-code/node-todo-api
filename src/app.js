@@ -1,9 +1,9 @@
 require('dotenv').config()
 const express = require('express')
-const app = express();
+const app = express()
 
 app.get('/', function (req, res) {
-    res.send("Hello World")
+  res.send('Hello World')
 })
 
-module.exports = app 
+module.exports = app
