@@ -9,10 +9,10 @@ const TestDbSchema = Schema({
 })
 
 // compile schema to model
-var TestDb = mongoose.model('TestDb', TestDbSchema)
+const TestDb = mongoose.model('TestDb', TestDbSchema)
 
 // a document instance
-var testData = new TestDb({title: 'Database setup working'})
+const testData = new TestDb({title: 'Database setup working'})
 
 //save
 testData.save(function (err, result) {
