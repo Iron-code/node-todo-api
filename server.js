@@ -4,7 +4,6 @@ const app = require('./src/app')
 const config = require('./src/config')
 const PORT = config('PORT')
 const connectDB = require('./databaseConnection')
-// const database = require('./databaseConnection')
 const sampleModel = require('./src/sampleModel')
 
 
